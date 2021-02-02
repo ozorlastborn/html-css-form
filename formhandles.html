@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title></title>
+</head>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+ 
+<div>
+	
+	<form action="form.php">
+		<label for="fname">FIRST NAME</label>
+		<input type="text" id="fname" name="fistname" placeholder="Your name....">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your lastname...">
+
+		<label for="pword">Password</label>
+		<input type="Password" id="pword" name="password" placeholder="Your Password">
+
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="london">London</option>
+			<option value="nigeria">Nigeria</option>
+			<option value="Ghana">Ghana</option>
+		</select>
+
+		<label for="state">State</label>
+		<select id="state" name="state">
+			<option value="please choose">Please Choose</option>
+			<option value="enugu">Enugu</option>
+			<option value="lag">Lagos</option>
+			<option value="abj">Abuja</option>
+		</select>
+
+		<input type="submit" name="Submit">
+	</form>
+</div>
+</body>
+</html>
